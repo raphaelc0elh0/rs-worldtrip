@@ -9,7 +9,7 @@ export const HeroSection = () => {
 
   return (
     <Box backgroundImage="url('/images/night-sky.png')" backgroundRepeat="no-repeat">
-      <Section pb={0}>
+      <Section>
         <HStack align="start" spacing={20}>
           <Stack spacing={5}>
             <Heading color="catskill-white.50" fontWeight="500" fontSize={{ base: "xl", md: "3xl", xl: "4xl" }}>
