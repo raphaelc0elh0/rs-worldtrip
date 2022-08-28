@@ -9,7 +9,7 @@ const Continent = () => {
   return (
     <>
       <Head>
-        <title>{continentsData.europe.name} | worldtirp</title>
+        <title>{continentsData.europe.name} | worldtrip</title>
       </Head>
       <Flex
         align={{ base: "center", lg: "end" }}
