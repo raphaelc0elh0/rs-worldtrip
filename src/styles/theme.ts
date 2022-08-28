@@ -71,7 +71,12 @@ export const theme = extendTheme({
     global: {
       body: {
         bg: "white",
-        color: "river-bed.700"
+        color: "river-bed.700",
+        fontSize: {
+          base: "md",
+          md: "lg",
+          xl: "2xl"
+        }
       }
     }
   }

@@ -1,4 +1,4 @@
-import { Box, Center, Flex, Stack, Text } from "@chakra-ui/react"
+import { Box, Center, Flex, Heading, Stack, Text } from "@chakra-ui/react"
 import { Swiper, SwiperSlide } from "swiper/react"
 // Import Swiper styles
 import "swiper/css"
@@ -31,11 +31,11 @@ export const SliderSection = () => {
                   background={`center / cover no-repeat url('${section.imgSrc}')`}
                   h={{ base: "250px", md: "350px", xl: "450px" }}
                 >
-                  <Stack spacing="4" textAlign="center" fontWeight="bold">
-                    <Text fontSize={{ base: "2xl", md: "3xl", xl: "5xl" }} color="white">
+                  <Stack spacing="4" textAlign="center">
+                    <Heading fontSize={{ base: "2xl", md: "3xl", xl: "5xl" }} color="white">
                       {section.title}
-                    </Text>
-                    <Text fontSize={{ base: "sm", md: "lg", xl: "2xl" }} color="alto.300">
+                    </Heading>
+                    <Text fontSize={{ base: "sm", md: "lg", xl: "2xl" }} color="alto.300" fontWeight="bold">
                       {section.subtitle}
                     </Text>
                   </Stack>
